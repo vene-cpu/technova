@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TechNova - Robôs, Gadgets e Inovação</title>
+<style>
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f0f4ff;
+  color: #222;
+}
+header {
+  background-color: #1a1a40;
+  color: white;
+  text-align: center;
+  padding: 2.5rem 1rem;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.6rem;
+}
+header p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+nav {
+  background-color: #2a2a6a;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  display: block;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+nav a:hover {
+  background-color: #3f3f90;
+}
+section {
+  padding: 2rem 10%;
+  line-height: 1.7;
+}
+section h2 {
+  color: #1a1a40;
+  text-align: center;
+}
+section img {
+  width: 100%;
+  border-radius: 10px;
+  margin: 1rem 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+#servicos .card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+.card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+.card h3 {
+  color: #1a1a40;
+  margin-top: 0.5rem;
+}
+#contato form {
+  max-width: 600px;
+  margin: auto;
+  background-color: #eef1ff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+#contato input, #contato textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+#contato button {
+  background-color: #1a1a40;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+#contato button:hover {
+  background-color: #2a2a6a;
+}
+footer {
+  text-align: center;
+  background-color: #1a1a40;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>TechNova</h1>
+  <p>Inovação, Robótica e Tecnologia do Futuro 🤖</p>
+</header>
+
+<nav>
+  <a href="#inicio">Início</a>
+  <a href="#sobre">Sobre</a>
+  <a href="#servicos">Tecnologias</a>
+  <a href="#laboratorio">Laboratório</a>
+  <a href="#galeria">Galeria</a>
+  <a href="#contato">Contato</a>
+</nav>
+
+<section id="inicio">
+  <h2>Bem-vindo à TechNova</h2>
+  <p>A TechNova é um centro de inovação dedicado ao desenvolvimento de robôs inteligentes, gadgets modernos e soluções tecnológicas que transformam o futuro da humanidade. Unimos ciência, criatividade e engenharia para criar um amanhã mais conectado e eficiente.</p>
+  <img src="https://images.unsplash.com/photo-1518770660439-4636190af475" alt="Robô futurista">
+</section>
+
+<section id="sobre">
+  <h2>Sobre a TechNova</h2>
+  <p>Fundada em 2018, a TechNova é composta por engenheiros, cientistas e desenvolvedores apaixonados por inovação. Nossa missão é desenvolver tecnologias que melhorem a vida das pessoas, desde robôs domésticos até sistemas de automação industrial baseados em IA.</p>
+  <img src="https://images.unsplash.com/photo-1581093588401-22c7e6b29c90" alt="Equipe de tecnologia">
+</section>
+
+<section id="servicos">
+  <h2>Áreas de Inovação Tecnológica</h2>
+  <div class="card-container">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1581091012184-5c1a0d3dd9a6" alt="Inteligência Artificial">
+      <h3>Inteligência Artificial</h3>
+      <p>Desenvolvemos algoritmos que aprendem, interpretam e executam tarefas humanas, aprimorando eficiência e automação.</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1581092334464-9f1a7b1d3b1c" alt="Robôs autônomos">
+      <h3>Robôs Autônomos</h3>
+      <p>Criamos robôs que auxiliam em hospitais, residências e indústrias, otimizando o trabalho humano e reduzindo erros.</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1603791440384-56cd371ee9a7" alt="Gadgets e dispositivos">
+      <h3>Gadgets Inteligentes</h3>
+      <p>Desenvolvemos wearables, drones e dispositivos conectados, projetados para tornar a vida mais fácil e eficiente.</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1612933714386-53b3c1a2b0f3" alt="Códigos e programação">
+      <h3>Desenvolvimento de Software</h3>
+      <p>Projetamos sistemas avançados, sites, aplicativos e IA integradas com visão computacional e linguagem natural.</p>
+    </div>
+  </div>
+</section>
+
+<section id="laboratorio">
+  <h2>Nosso Laboratório</h2>
+  <p>Nosso laboratório é equipado com tecnologias de ponta para testes, criação de protótipos e experimentos em robótica, automação e IA. Aqui, ideias se tornam realidade.</p>
+  <img src="https://images.unsplash.com/photo-1581093588401-22c7e6b29c90" alt="Laboratório tecnológico">
+</section>
+
+<section id="galeria">
+  <h2>Galeria Tecnológica</h2>
+  <p>Explore alguns dos nossos projetos e equipamentos futuristas.</p>
+  <div class="card-container">
+    <img src="https://images.unsplash.com/photo-1581091012184-5c1a0d3dd9a6" alt="Robô de laboratório">
+    <img src="https://images.unsplash.com/photo-1603791440384-56cd371ee9a7" alt="Gadget moderno">
+    <img src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f" alt="Painel eletrônico">
+    <img src="https://images.unsplash.com/photo-1612933714386-53b3c1a2b0f3" alt="Linhas de código">
+  </div>
+</section>
+
+<section id="contato">
+  <h2>Contato</h2>
+  <form onsubmit="event.preventDefault(); alert('Mensagem enviada com sucesso! Obrigado pelo seu contato.');">
+    <input type="text" placeholder="Seu nome" required>
+    <input type="email" placeholder="Seu e-mail" required>
+    <textarea rows="5" placeholder="Sua mensagem"></textarea>
+    <button type="submit">Enviar Mensagem</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 TechNova | Inovação e Robótica Avançada</p>
+</footer>
+
+</body>
+</html>
